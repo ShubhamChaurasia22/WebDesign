@@ -1,4 +1,37 @@
+/* Variable define */
+:root {
+    --main-color: #97e6d7;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+header {
+    min-width: 95.7%;
+    height: 3rem;
+    border: 1px solid #000;
+    padding: 0 2rem;
+    position: absolute;
+    bottom: 0;
+}
+
+nav {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    min-width: 20rem;
+}
+.navbar > ul {
+    display: flex;
+    justify-content: space-between;
 }
